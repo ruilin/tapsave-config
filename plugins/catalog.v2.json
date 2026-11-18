@@ -1,0 +1,42 @@
+{
+  "api": 2,
+  "plugins": [
+    {
+      "id": "imooc",
+      "name": "慕课网",
+      "nameEn": "IMOOC",
+      "description": "播放课程后，可将视频下载到本地。",
+      "descriptionEn": "Play a lesson, then download the video to watch offline.",
+      "version": 2,
+      "api": 1,
+      "capability": "imooc_hls",
+      "origins": [
+        "https://m.imooc.com",
+        "https://www.imooc.com"
+      ],
+      "path": "plugins/imooc/2.tsp",
+      "sha256": "3143f2cadf0571b5260647e3596536eca8e88bdfe719d86e2000aeb47a1f3289",
+      "unlock": "free",
+      "encoding": "gzip-xor-v1"
+    },
+    {
+      "id": "bilibili",
+      "name": "B 站",
+      "nameEn": "Bilibili",
+      "description": "打开或播放视频后，可下载到本地观看。",
+      "descriptionEn": "Open or play a video, then download it to watch offline.",
+      "version": 2,
+      "api": 1,
+      "capability": "bili_media",
+      "origins": [
+        "https://bilibili.com",
+        "https://www.bilibili.com",
+        "https://m.bilibili.com"
+      ],
+      "path": "plugins/bilibili/2.tsp",
+      "sha256": "5c3176f23e9c35db752a84087fab88760cb4347fc3aad46904195f6cf49d4a7b",
+      "unlock": "free",
+      "encoding": "gzip-xor-v1"
+    }
+  ]
+}
