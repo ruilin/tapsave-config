@@ -37,6 +37,45 @@
       "sha256": "5c3176f23e9c35db752a84087fab88760cb4347fc3aad46904195f6cf49d4a7b",
       "unlock": "free",
       "encoding": "gzip-xor-v1"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "nameEn": "Facebook",
+      "description": "打开单条视频或 Reels 页面后，可下载页面提供的视频。",
+      "descriptionEn": "Open a video or Reel, then download the video available on the page.",
+      "version": 1,
+      "api": 1,
+      "capability": "media",
+      "origins": [
+        "https://facebook.com",
+        "https://www.facebook.com",
+        "https://m.facebook.com",
+        "https://web.facebook.com",
+        "https://mbasic.facebook.com"
+      ],
+      "path": "plugins/facebook/1.tsp",
+      "sha256": "8e64bc2dc7a5cc445fd12a3c947232ad26f9d934b0c692ce5a8d3403ebe49bef",
+      "unlock": "free",
+      "encoding": "gzip-xor-v1"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "nameEn": "Instagram",
+      "description": "打开 Reels 或帖子后，可下载页面提供的视频。",
+      "descriptionEn": "Open a Reel or post, then download the videos available on the page.",
+      "version": 1,
+      "api": 1,
+      "capability": "media",
+      "origins": [
+        "https://instagram.com",
+        "https://www.instagram.com"
+      ],
+      "path": "plugins/instagram/1.tsp",
+      "sha256": "1626e021df2359d1c01a2644b7354e08c970f24a5d310bd2fb3a20de93a9b35f",
+      "unlock": "free",
+      "encoding": "gzip-xor-v1"
     }
   ]
 }
