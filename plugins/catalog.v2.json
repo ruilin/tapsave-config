@@ -57,6 +57,7 @@
       "path": "plugins/facebook/1.tsp",
       "sha256": "8e64bc2dc7a5cc445fd12a3c947232ad26f9d934b0c692ce5a8d3403ebe49bef",
       "unlock": "free",
+      "auto": true,
       "encoding": "gzip-xor-v1"
     },
     {
@@ -75,6 +76,7 @@
       "path": "plugins/instagram/1.tsp",
       "sha256": "1626e021df2359d1c01a2644b7354e08c970f24a5d310bd2fb3a20de93a9b35f",
       "unlock": "free",
+      "auto": true,
       "encoding": "gzip-xor-v1"
     }
   ]
